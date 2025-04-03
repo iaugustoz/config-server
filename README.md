@@ -1,10 +1,22 @@
-# **To-Do List - Config Server** 📝
+# 📝 **To-Do List - Config Server** 📝
+
+## 📜 **Descrição**
 
 Este repositório armazena os arquivos de configuração (`.properties`) dos microsserviços do projeto **To-Do List**, utilizando o **Spring Cloud Config Server** para fornecer uma abordagem centralizada e escalável na gestão de configurações.
 
-## 📌 **Sobre o Projeto**
+O projeto é constituído por alguns microsserviços e repositório de configuraçöes. A seguir, estão os principais componentes do sistema:
 
-O **To-Do List** é uma aplicação baseada em **arquitetura de microsserviços**, desenvolvida em **Java + Spring Boot**, seguindo boas práticas de escalabilidade, desacoplamento e gerenciamento eficiente de estados e configurações.
+- **[ms-service-notification](https://github.com/iaugustoz/ms-main-service/)**: reponsável pelo gerenciamento e envio de notificações no sistema de To-Do List
+- **[ms-tasks-service](https://github.com/iaugustoz/ms-tasks-service)**: reponsável pelo processamento e administração das tarefas disponíveis
+- **[ms-main-service](https://github.com/iaugustoz/ms-main-service/)**: microsserviço centralizador responsável por atuar como servidor de configuração (Config Server) e serviço de descoberta (Eureka Server).
+  
+---
+
+## 🚀 **Status do Projeto**
+
+✅ Projeto concluído.
+
+---
 
 ## ⚙️ **Tecnologias Utilizadas**
 
@@ -14,6 +26,8 @@ O **To-Do List** é uma aplicação baseada em **arquitetura de microsserviços*
 - **Git como Backend de Configuração**
 - **Docker e Kubernetes (GKE) para orquestração**
 
+---
+
 ## 🛠️ **Como Funciona o Config Server?**
 
 O **Spring Cloud Config Server** permite que os microsserviços recuperem suas configurações de um repositório central, garantindo:  
@@ -22,9 +36,13 @@ O **Spring Cloud Config Server** permite que os microsserviços recuperem suas c
 ✔ **Facilidade de atualização** sem necessidade de reimplantar os microsserviços  
 ✔ **Segurança e versionamento**, garantindo controle sobre mudanças nas configurações
 
+---
+
 ## 📢 **Contribuições**
 
 Caso tenha sugestões ou melhorias, fique à vontade para abrir uma **issue** ou enviar um **pull request**.
+
+---
 
 ## 📜 **Licença**
 
